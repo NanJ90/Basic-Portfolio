@@ -1,58 +1,69 @@
-<!DOCTYPE html>
+ß<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Nan Jia's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<!-- Background Pattern -->
-	<img src="">
-	<div>
-		<!-- Title -->
-		<div>
+
+	<div id="container">	
+		<div class="container-1">
 			<header>
-				<h1>Nan Jia</h1>
+				<!-- Page Title -->
+					<h1>Nan Jia</h1>
 			</header>
-			<!-- Side Bar -->
-			<nav>
-				<div>About Me</div>
-				<div>Portfolio</div>
-				<div>Contact</div>
-			</nav>
-		</div>
+				<nav>
+					<!-- Side Bar -->
+					<ul>
+						<li>
+							<a href="index.html">About</a>
+						</li>
+						<li>
+							<a href="portfolio.html">Portfolio</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav> 	
+		</div>		
 
 		<!-- Grid/ Main Info -->
-		<div>
-			<!-- Portfolio 75%-->
-			<div>
-				<!-- header -->
-				<div class="header">
-				<h2>Portfolio</h2>
-				</div>
-				<div class="col-9 portfolio">
-					<ul>
-						<li>A</li>
-						<li>B</li>
-						<li>C</li>
-						<li>D</li>
-						<li>E</li>
-						<li>Coming Soon</li>
-					</ul>
-					
+		<section id="content-wrapper">
+			<div class="container-2">
+				<!-- About Me -->
+				<header>
+					<h2>Portfolio</h2>
+					<hr class="thick">
+				</header>
+				<div id="portfolio">
+					<div class="align-1"><a href="#"><img src="assets/images/placeholder.png">Hangman</a></div>
+					<div class="align-2"> <a href="#"><img src="assets/images/placeholder.png">RPG Game</a></div>
+					<div class="align-3"><a href="#"><img src="assets/images/placeholder.png">Trivia Game</a></div>
+					<div class="align-4"><a href="#"><img src="assets/images/placeholder.png">Rutgers Info Widget</a></div>
+					<div class="align-5"><a href="#"><img src="assets/images/placeholder.png">Rock Paper Scissors</a></div>					
 				</div>
 			</div>
 			<!-- Social Links 25%-->
-			<div class="col-3"> 
-				<h3>Connect with Me</h3>
-				<img src="">Github
-				<img src="">Linkedin
-				<img src="">Facebook
+			<div class="container-3">
+				<header>
+					<h3>Connect with Me</h3>
+				</header>
+				<div class="social">
+					<a href="https://github.com/NanJ90" target="_blank"><img src="assets/images/github.png"></a>
+					<a href="https://www.linkedin.com/in/nan-jia-b9690092/" target="_blank" "><img src="assets/images/linkedin.jpg"></a>
+					<a href="https://www.facebook.com/nanjia.0803" target="_blank"><img src="assets/images/facebook_icon.png"></a>				
+				</div>
 			</div>
-
-		</div>
-	<!-- Footer -->
-	<footer>&copy Copyright 2017 Nan Jia</footer>
+		</section>
 	</div>
+
+	<!-- Footer -->
+	<footer>
+	<p> &copy Copyright 2017 Nan Jia </p>
+	</footer>
+	
 
 
 
